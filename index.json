@@ -2,7 +2,7 @@
     "aliases": [],
     "recipes": {
         "faume/magento": [
-            "1.0-alpha"
+            "1.0.7-alpha"
         ],
         "faume/shipping": [
             "1.0"
