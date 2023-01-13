@@ -1,0 +1,17 @@
+{
+    "bundles": {
+        "Faume\\Magento\\FaumeMagentoBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "MAGENTO_HOST": "!changeMe!",
+        "MAGENTO_ACCESS_TOKEN": "!changeMe!",
+        "MAGENTO_SALES_RULE_CUSTOMER_GROUP_ID": "!changeMe!",
+        "MAGENTO_SALES_RULE_WEBSITE_IDS": "!changeMe!"
+    }
+}

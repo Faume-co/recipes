@@ -1,0 +1,5 @@
+faume_magento:
+    host: '%env(MAGENTO_HOST)%'
+    access_token: '%env(MAGENTO_ACCESS_TOKEN)%'
+    sales_rule_customer_group_id: '%env(MAGENTO_SALES_RULE_CUSTOMER_GROUP_ID)%'
+    website_ids: '%env(MAGENTO_SALES_RULE_WEBSITE_IDS)%'

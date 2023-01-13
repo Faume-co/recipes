@@ -1,0 +1,8 @@
+  * You are almost ready:
+    -> Change the value of these values <info>.env</info> file :
+    - <info>MAGENTO_HOST</info>
+    - <info>MAGENTO_ACCESS_TOKEN</info>
+    - <info>MAGENTO_SALES_RULE_CUSTOMER_GROUP_ID</info>
+    - <info>MAGENTO_SALES_RULE_WEBSITE_IDS</info>
+
+  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-magento</>
