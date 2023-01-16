@@ -1,0 +1,4 @@
+faume_wshop:
+    host: '%env(WSHOP_HOST)%'
+    username: '%env(WSHOP_USERNAME)%'
+    password: '%env(WSHOP_PASSWORD)%'
