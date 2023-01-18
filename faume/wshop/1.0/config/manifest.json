@@ -1,0 +1,16 @@
+{
+    "bundles": {
+        "Faume\\Wshop\\FaumeWshopBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "WSHOP_HOST": "!changeMe!",
+        "WSHOP_USERNAME": "!changeMe!",
+        "WSHOP_PASSWORD": "!changeMe!"
+    }
+}
