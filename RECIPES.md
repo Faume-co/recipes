@@ -6,3 +6,4 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | --- | --- |
 | [faume/magento](https://packagist.org/packages/faume/magento) | [1.0-alpha](faume/magento/1.0-alpha) |
 | [faume/shipping](https://packagist.org/packages/faume/shipping) | [1.0](faume/shipping/1.0) |
+| [faume/wshop](https://packagist.org/packages/faume/wshop) | [1.0](faume/wshop/1.0) |

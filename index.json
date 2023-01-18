@@ -6,6 +6,9 @@
         ],
         "faume/shipping": [
             "1.0"
+        ],
+        "faume/wshop": [
+            "1.0"
         ]
     },
     "recipe-conflicts": [],

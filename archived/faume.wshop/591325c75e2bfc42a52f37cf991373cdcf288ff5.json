@@ -1,0 +1,45 @@
+{
+    "manifests": {
+        "faume/wshop": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\Wshop\\FaumeWshopBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "WSHOP_HOST": "!changeMe!",
+                    "WSHOP_USERNAME": "!changeMe!",
+                    "WSHOP_PASSWORD": "!changeMe!"
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of these values <info>.env</info> file :",
+                    "    - <info>WSHOP_HOST</info>",
+                    "    - <info>WSHOP_USERNAME</info>",
+                    "    - <info>WSHOP_PASSWORD</info>",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-wshop</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_wshop.yaml": {
+                    "contents": [
+                        "faume_wshop:",
+                        "    host: '%env(WSHOP_HOST)%'",
+                        "    username: '%env(WSHOP_USERNAME)%'",
+                        "    password: '%env(WSHOP_PASSWORD)%'"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "591325c75e2bfc42a52f37cf991373cdcf288ff5"
+        }
+    }
+}
