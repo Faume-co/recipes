@@ -1,0 +1,9 @@
+  * You are almost ready:
+    -> Change the value of these values <info>.env</info> file :
+    - <info>Y2_HOST</info>
+    - <info>Y2_USERNAME</info>
+    - <info>Y2_PASSWORD</info>
+    - <info>Y2_DATABASE_ID</info>
+    - <info>Y2_ROOT_NODE</info>
+
+  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-y2</>

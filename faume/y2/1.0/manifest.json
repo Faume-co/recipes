@@ -1,0 +1,20 @@
+{
+    "bundles": {
+        "Faume\\Y2\\FaumeY2Bundle": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "Y2_HOST": "!changeMe!",
+        "Y2_USERNAME": "!changeMe!",
+        "Y2_PASSWORD": "!changeMe!",
+        "Y2_ROOT_NODE": "soap:Envelope",
+        "Y2_DATABASE_ID": "!changeMe!"
+    }
+}
