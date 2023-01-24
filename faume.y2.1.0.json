@@ -1,0 +1,49 @@
+{
+    "manifests": {
+        "faume/y2": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\Y2\\FaumeY2Bundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "Y2_HOST": "!changeMe!",
+                    "Y2_USERNAME": "!changeMe!",
+                    "Y2_PASSWORD": "!changeMe!",
+                    "Y2_ROOT_NODE": "soap:Envelope",
+                    "Y2_DATABASE_ID": "!changeMe!"
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of these values <info>.env</info> file :",
+                    "    - <info>Y2_HOST</info>",
+                    "    - <info>Y2_USERNAME</info>",
+                    "    - <info>Y2_PASSWORD</info>",
+                    "    - <info>Y2_DATABASE_ID</info>",
+                    "    - <info>Y2_ROOT_NODE</info>",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-y2</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_y2.yaml": {
+                    "contents": [
+                        "faume_y2:",
+                        "    host: '%env(Y2_HOST)%'",
+                        "    username: '%env(Y2_USERNAME)%'",
+                        "    password: '%env(Y2_PASSWORD)%'"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "135bc8926b9f882db558a494e131d6fec4ccb5f4"
+        }
+    }
+}

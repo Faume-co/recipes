@@ -9,6 +9,9 @@
         ],
         "faume/wshop": [
             "1.0"
+        ],
+        "faume/y2": [
+            "1.0"
         ]
     },
     "recipe-conflicts": [],
