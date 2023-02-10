@@ -1,0 +1,6 @@
+faume_fastmag:
+    store: '%env(FASTMAG_STORE)%'
+    business_name: '%env(FASTMAG_BUSINESS_NAME)%'
+    account: '%env(FASTMAG_ACCOUNT)%'
+    password: '%env(FASTMAG_PASSWORD)%'
+    ediEndpoint: '%env(FASTMAG_EDI_ENDPOINT)%'

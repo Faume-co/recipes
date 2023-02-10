@@ -1,0 +1,9 @@
+  * You are almost ready:
+    -> Change the value of these values <info>.env</info> file :
+    - <info>FASTMAG_STORE</info>
+    - <info>FASTMAG_BUSINESS_NAME</info>
+    - <info>FASTMAG_ACCOUNT</info>
+    - <info>FASTMAG_PASSWORD</info>
+    - <info>FASTMAG_EDI_ENDPOINT</info>
+
+  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-fastmag</>
