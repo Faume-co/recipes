@@ -1,0 +1,51 @@
+{
+    "manifests": {
+        "faume/fastmag": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\Fastmag\\FaumeFastmagBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "FASTMAG_BUSINESS_NAME": "changeMe",
+                    "FASTMAG_STORE": "changeMe",
+                    "FASTMAG_ACCOUNT": "changeMe",
+                    "FASTMAG_PASSWORD": "changeMe",
+                    "FASTMAG_EDI_ENDPOINT": "changeMe"
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of these values <info>.env</info> file :",
+                    "    - <info>FASTMAG_STORE</info>",
+                    "    - <info>FASTMAG_BUSINESS_NAME</info>",
+                    "    - <info>FASTMAG_ACCOUNT</info>",
+                    "    - <info>FASTMAG_PASSWORD</info>",
+                    "    - <info>FASTMAG_EDI_ENDPOINT</info>",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-fastmag</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_fastmag.yaml": {
+                    "contents": [
+                        "faume_fastmag:",
+                        "    store: '%env(FASTMAG_STORE)%'",
+                        "    business_name: '%env(FASTMAG_BUSINESS_NAME)%'",
+                        "    account: '%env(FASTMAG_ACCOUNT)%'",
+                        "    password: '%env(FASTMAG_PASSWORD)%'",
+                        "    ediEndpoint: '%env(FASTMAG_EDI_ENDPOINT)%'"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "3b828df250db27baf4d79206b1ef112eb7fa25bd"
+        }
+    }
+}

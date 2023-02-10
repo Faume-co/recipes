@@ -1,8 +1,11 @@
 {
     "aliases": [],
     "recipes": {
+        "faume/fastmag": [
+            "1.0"
+        ],
         "faume/magento": [
-            "1.0-alpha"
+            "1.0"
         ],
         "faume/shipping": [
             "1.0"
