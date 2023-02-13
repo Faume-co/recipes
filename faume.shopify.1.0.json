@@ -1,0 +1,58 @@
+{
+    "manifests": {
+        "faume/shopify": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\ShopifyBundle\\FaumeShopifyBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "SHOPIFY_API_KEY": "!changeMe!",
+                    "SHOPIFY_API_SECRET": "!changeMe!",
+                    "SHOPIFY_API_URL": "!changeMe!",
+                    "DISCOUNT_CODE_SHOPIFY_KEY": "!changeMe!",
+                    "DISCOUNT_CODE_SHOPIFY_SECRET": "!changeMe!",
+                    "DISCOUNT_CODE_SHOPIFY_URL": "!changeMe!",
+                    "SHOPIFY_ACCESS_TOKEN": "!changeMe!"
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of these values <info>.env</info> file :",
+                    "    - <info>SHOPIFY_API_KEY</info>",
+                    "    - <info>SHOPIFY_API_SECRET</info>",
+                    "    - <info>SHOPIFY_API_URL</info>",
+                    "    - <info>DISCOUNT_CODE_SHOPIFY_KEY</info>",
+                    "    - <info>DISCOUNT_CODE_SHOPIFY_SECRET</info>",
+                    "    - <info>DISCOUNT_CODE_SHOPIFY_URL</info>",
+                    "    - <info>SHOPIFY_ACCESS_TOKEN</info>",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-shopify</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_shopify.yaml": {
+                    "contents": [
+                        "faume_shopify:",
+                        "    shopify_api_key: '%env(SHOPIFY_API_KEY)%'",
+                        "    shopify_api_secret: '%env(SHOPIFY_API_SECRET)%'",
+                        "    shopify_url: '%env(SHOPIFY_API_URL)%'",
+                        "    shopify_access_token: '%env(SHOPIFY_ACCESS_TOKEN)%'",
+                        "    discount_code_shopify_key: '%env(SHOPIFY_API_KEY)%'",
+                        "    discount_code_shopify_secret: '%env(SHOPIFY_API_SECRET)%'",
+                        "    discount_code_shopify_url: '%env(SHOPIFY_API_URL)%'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "31a2968201c4f0f5514ab9f050a203359e13f96e"
+        }
+    }
+}
