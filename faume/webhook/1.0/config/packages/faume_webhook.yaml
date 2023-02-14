@@ -1,0 +1,2 @@
+faume_webhook:
+    secret_key: '%env(WEBHOOK_SECRET_KEY)%'

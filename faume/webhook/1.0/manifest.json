@@ -1,0 +1,14 @@
+{
+    "bundles": {
+        "Faume\\WebhookBundle\\FaumeWebhookBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "WEBHOOK_SECRET_KEY": "!changeMe!"
+    }
+}
