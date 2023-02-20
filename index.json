@@ -7,6 +7,9 @@
         "faume/magento": [
             "1.0"
         ],
+        "faume/publicapi": [
+            "1.0"
+        ],
         "faume/shipping": [
             "1.0"
         ],

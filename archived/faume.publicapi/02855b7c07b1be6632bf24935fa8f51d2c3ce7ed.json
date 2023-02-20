@@ -1,9 +1,9 @@
 {
     "manifests": {
-        "faume/webhook": {
+        "faume/publicapi": {
             "manifest": {
                 "bundles": {
-                    "Faume\\WebhookBundle\\FaumeWebhookBundle": [
+                    "Faume\\PublicAPIBundle\\FaumePublicAPIBundle": [
                         "all"
                     ]
                 },
@@ -14,22 +14,26 @@
                     "cache:clear": "symfony-cmd"
                 },
                 "env": {
-                    "WEBHOOK_SECRET_KEY": "!changeMe!"
+                    "FAUME_PUBLIC_API_EMAIL": "!changeMe!",
+                    "FAUME_PUBLIC_API_PASSWORD": "!changeMe!",
+                    "FAUME_PUBLIC_API_ENV": "!changeMe!"
                 },
                 "post-install-output": [
                     ""
                 ]
             },
             "files": {
-                "config/packages/faume_webhook.yaml": {
+                "config/packages/faume_public_api.yaml": {
                     "contents": [
-                        "faume_webhook:",
-                        "    secret_key: '%env(WEBHOOK_SECRET_KEY)%'"
+                        "faume_public_api:",
+                        "    email: '%env(FAUME_PUBLIC_API_EMAIL)%'",
+                        "    password: '%env(FAUME_PUBLIC_API_PASSWORD)%'",
+                        "    env: '%env(FAUME_PUBLIC_API_ENV)%'"
                     ],
                     "executable": false
                 }
             },
-            "ref": "d511d55aabe7595f15a63c2defd7a141ca01a021"
+            "ref": "02855b7c07b1be6632bf24935fa8f51d2c3ce7ed"
         }
     }
 }
