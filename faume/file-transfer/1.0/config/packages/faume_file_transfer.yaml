@@ -1,7 +1,9 @@
 faume_file_transfer:
+    app_home: '%env(APP_HOME)' # This is a CleverCloud environment variable
     file_rules:
         extension:  '%env(FAUME_FILE_TRANSFER_FILE_EXTENSION)%'
         separator : '%env(FAUME_FILE_TRANSFER_SEPARATOR)%'
+        generate_file_path: '%env(FAUME_FILE_TRANSFER_GENERATE_FILE_PATH)%'
     discount_code:
         file_prefix:          '%env(FAUME_FILE_TRANSFER_DISCOUNT_CODE_FILE_PREFIX)%'
         result_file_prefix:   '%env(FAUME_FILE_TRANSFER_DISCOUNT_CODE_RESULT_FILE_PREFIX)%'

@@ -1,0 +1,4 @@
+  * You are almost ready:
+    -> Set values in your .env file for all FAUME_FILE_TRANSFER variables
+
+  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-file-transfer</>

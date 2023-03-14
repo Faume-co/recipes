@@ -8,11 +8,12 @@
         "config/": "%CONFIG_DIR%"
     },
     "composer-scripts": {
-        "cache:clear": "syfmony-cmd"
+        "cache:clear": "symfony-cmd"
     },
     "env": {
         "FAUME_FILE_TRANSFER_FILE_EXTENSION": "!changeMe!",
         "FAUME_FILE_TRANSFER_SEPARATOR": "!changeMe!",
+        "FAUME_FILE_TRANSFER_GENERATE_FILE_PATH": "!changeMe!",
         "FAUME_FILE_TRANSFER_DISCOUNT_CODE_FILE_PREFIX": "!changeMe!",
         "FAUME_FILE_TRANSFER_DISCOUNT_CODE_RESULT_FILE_PREFIX": "!changeMe!",
         "FAUME_FILE_TRANSFER_CUSTOMER_FILE_PREFIX": "!changeMe!",
@@ -24,6 +25,7 @@
         "FAUME_FILE_TRANSFER_GET_FILE_HOST": "!changeMe!",
         "FAUME_FILE_TRANSFER_GET_FILE_USERNAME": "!changeMe!",
         "FAUME_FILE_TRANSFER_GET_FILE_PASSWORD": "!changeMe!",
-        "FAUME_FILE_TRANSFER_GET_FILE_PATH": "!changeMe!"
+        "FAUME_FILE_TRANSFER_GET_FILE_PATH": "!changeMe!",
+        "FAUME_FILE_TRANSFER_GET_FILE_DESTINATION_PATH": "!changeMe!"
     }
 }
