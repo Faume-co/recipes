@@ -4,6 +4,9 @@
         "faume/fastmag": [
             "1.0"
         ],
+        "faume/file-transfer": [
+            "1.0"
+        ],
         "faume/magento": [
             "1.0"
         ],
