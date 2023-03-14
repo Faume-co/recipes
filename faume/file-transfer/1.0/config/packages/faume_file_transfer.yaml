@@ -1,0 +1,21 @@
+faume_file_transfer:
+    file_rules:
+        extension:  '%env(FAUME_FILE_TRANSFER_FILE_EXTENSION)%'
+        separator : '%env(FAUME_FILE_TRANSFER_SEPARATOR)%'
+    discount_code:
+        file_prefix:          '%env(FAUME_FILE_TRANSFER_DISCOUNT_CODE_FILE_PREFIX)%'
+        result_file_prefix:   '%env(FAUME_FILE_TRANSFER_DISCOUNT_CODE_RESULT_FILE_PREFIX)%'
+    customer:
+        file_prefix:          '%env(FAUME_FILE_TRANSFER_CUSTOMER_FILE_PREFIX)%'
+        result_file_prefix:   '%env(FAUME_FILE_TRANSFER_CUSTOMER_RESULT_FILE_PREFIX)%'
+    put_file:
+        host:       '%env(FAUME_FILE_TRANSFER_PUT_FILE_HOST)%'
+        username:   '%env(FAUME_FILE_TRANSFER_PUT_FILE_USERNAME)%'
+        password:   '%env(FAUME_FILE_TRANSFER_PUT_FILE_PASSWORD)%'
+        path:       '%env(FAUME_FILE_TRANSFER_PUT_FILE_PATH)%'
+    get_file:
+        host:       '%env(FAUME_FILE_TRANSFER_GET_FILE_HOST)%'
+        username:   '%env(FAUME_FILE_TRANSFER_GET_FILE_USERNAME)%'
+        password:   '%env(FAUME_FILE_TRANSFER_GET_FILE_PASSWORD)%'
+        path:       '%env(FAUME_FILE_TRANSFER_GET_FILE_PATH)%'
+        destination_path: '%env(FAUME_FILE_TRANSFER_GET_FILE_DESTINATION_PATH)%'
