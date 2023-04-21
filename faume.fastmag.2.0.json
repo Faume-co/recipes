@@ -1,0 +1,51 @@
+{
+    "manifests": {
+        "faume/fastmag": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\Fastmag\\FaumeFastmagBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "FASTMAG_HOST": "changeMe",
+                    "FASTMAG_DATABASE_NAME": "changeMe",
+                    "FASTMAG_STORE": "changeMe",
+                    "FASTMAG_ACCOUNT": "changeMe",
+                    "FASTMAG_PASSWORD": "changeMe"
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of these values <info>.env</info> file :",
+                    "    - <info>FASTMAG_HOST</info>",
+                    "    - <info>FASTMAG_DATABASE_NAME</info>",
+                    "    - <info>FASTMAG_STORE</info>",
+                    "    - <info>FASTMAG_ACCOUNT</info>",
+                    "    - <info>FASTMAG_PASSWORD</info>",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-fastmag</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_fastmag.yaml": {
+                    "contents": [
+                        "faume_fastmag:",
+                        "    host: '%env(FASTMAG_HOST)%'",
+                        "    database: '%env(FASTMAG_DATABASE_NAME)%'",
+                        "    store: '%env(FASTMAG_STORE)%'",
+                        "    account: '%env(FASTMAG_ACCOUNT)%'",
+                        "    password: '%env(FASTMAG_PASSWORD)%'"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "b9d1fa7cdf43770f9d064190dc7afaaf10f47db9"
+        }
+    }
+}

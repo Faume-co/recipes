@@ -4,7 +4,7 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 
 | Package | Latest Recipe |
 | --- | --- |
-| [faume/fastmag](https://packagist.org/packages/faume/fastmag) | [1.0](faume/fastmag/1.0) |
+| [faume/fastmag](https://packagist.org/packages/faume/fastmag) | [2.0](faume/fastmag/2.0) |
 | [faume/file-transfer](https://packagist.org/packages/faume/file-transfer) | [1.0](faume/file-transfer/1.0) |
 | [faume/magento](https://packagist.org/packages/faume/magento) | [1.0](faume/magento/1.0) |
 | [faume/publicapi](https://packagist.org/packages/faume/publicapi) | [1.0](faume/publicapi/1.0) |

@@ -2,7 +2,8 @@
     "aliases": [],
     "recipes": {
         "faume/fastmag": [
-            "1.0"
+            "1.0",
+            "2.0"
         ],
         "faume/file-transfer": [
             "1.0"
