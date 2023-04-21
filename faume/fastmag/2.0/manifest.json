@@ -1,0 +1,18 @@
+{
+    "bundles": {
+        "Faume\\Fastmag\\FaumeFastmagBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "FASTMAG_HOST": "changeMe",
+        "FASTMAG_DATABASE_NAME": "changeMe",
+        "FASTMAG_STORE":  "changeMe",
+        "FASTMAG_ACCOUNT": "changeMe",
+        "FASTMAG_PASSWORD":  "changeMe"
+    }
+}

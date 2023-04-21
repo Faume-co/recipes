@@ -1,0 +1,6 @@
+faume_fastmag:
+    host: '%env(FASTMAG_HOST)%'
+    database: '%env(FASTMAG_DATABASE_NAME)%'
+    store: '%env(FASTMAG_STORE)%'
+    account: '%env(FASTMAG_ACCOUNT)%'
+    password: '%env(FASTMAG_PASSWORD)%'
