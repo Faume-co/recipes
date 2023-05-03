@@ -1,0 +1,24 @@
+{
+  "bundles": {
+    "Faume\\Fastmag\\FaumeSalesforceBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd"
+  },
+  "env": {
+    "FAUME_SALESFORCE_CLIENT_SHORTCODE": "changeMe",
+    "FAUME_SALESFORCE_CLIENT_ORGANIZATION_ID": "changeMe",
+    "FAUME_SALESFORCE_CLIENT_SITE_ID":  "changeMe",
+    "FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN": "changeMe",
+    "FAUME_SALESFORCE_DISCOUNT_CODE_END_AT":  "changeMe",
+    "FAUME_SALESFORCE_DISCOUNT_CODE_MULTIPLE_CODE_PER_BASKET":  "changeMe",
+    "FAUME_SALESFORCE_DISCOUNT_CODE_PREFIX":  "changeMe",
+    "FAUME_SALESFORCE_DISCOUNT_CODE_DESCRIPTION":  "changeMe",
+    "FAUME_SALESFORCE_CAMPAIGN_PREFIX":  "changeMe",
+    "FAUME_SALESFORCE_CAMPAIGN_DESCRIPTION":  "changeMe",
+    "FAUME_SALESFORCE_PROMOTION_PREFIX":  "changeMe"
+  }
+}

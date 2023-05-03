@@ -1,0 +1,16 @@
+faume_salesforce:
+  client:
+    shortcode: changeMe
+    organization_id: changeMe
+    site_id: changeMe
+    auth_domain: changeMe
+  discount_code:
+    discount_code_end_at: changeMe
+    multiple_codes_per_basket: changeMe
+    coupon_prefix: changeMe
+    description: changeMe
+  campaign:
+    prefix: changeMe
+    description: changeMe
+  promotion:
+    prefix: changeMe
