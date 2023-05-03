@@ -1,16 +1,16 @@
 faume_salesforce:
   client:
     shortcode: '%env(FAUME_SALESFORCE_CLIENT_SHORTCODE)%'
-    organization_id: changeMe
-    site_id: changeMe
-    auth_domain: changeMe
+    organization_id: '%env(FAUME_SALESFORCE_CLIENT_ORGANIZATION_ID)%'
+    site_id: '%env(FAUME_SALESFORCE_CLIENT_SITE_ID)%'
+    auth_domain: '%env(FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN)%'
   discount_code:
-    discount_code_end_at: changeMe
-    multiple_codes_per_basket: changeMe
-    coupon_prefix: changeMe
-    description: changeMe
+    discount_code_end_at: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_END_AT)%'
+    multiple_codes_per_basket: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_MULTIPLE_CODE_PER_BASKET)%'
+    coupon_prefix: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_PREFIX)%'
+    description: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_DESCRIPTION)%'
   campaign:
-    prefix: changeMe
-    description: changeMe
+    prefix: '%env(FAUME_SALESFORCE_CAMPAIGN_PREFIX)%'
+    description: '%env(FAUME_SALESFORCE_CAMPAIGN_DESCRIPTION)%'
   promotion:
-    prefix: changeMe
+    prefix: '%env(FAUME_SALESFORCE_PROMOTION_PREFIX)%'
