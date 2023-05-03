@@ -8,6 +8,7 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [faume/file-transfer](https://packagist.org/packages/faume/file-transfer) | [1.0](faume/file-transfer/1.0) |
 | [faume/magento](https://packagist.org/packages/faume/magento) | [1.0](faume/magento/1.0) |
 | [faume/publicapi](https://packagist.org/packages/faume/publicapi) | [1.0](faume/publicapi/1.0) |
+| [faume/salesforce](https://packagist.org/packages/faume/salesforce) | [1.0](faume/salesforce/1.0) |
 | [faume/shipping](https://packagist.org/packages/faume/shipping) | [1.0](faume/shipping/1.0) |
 | [faume/shopify](https://packagist.org/packages/faume/shopify) | [1.0](faume/shopify/1.0) |
 | [faume/webhook](https://packagist.org/packages/faume/webhook) | [1.0](faume/webhook/1.0) |

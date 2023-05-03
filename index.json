@@ -14,6 +14,9 @@
         "faume/publicapi": [
             "1.0"
         ],
+        "faume/salesforce": [
+            "1.0"
+        ],
         "faume/shipping": [
             "1.0"
         ],

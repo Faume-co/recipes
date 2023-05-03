@@ -1,0 +1,56 @@
+{
+    "manifests": {
+        "faume/salesforce": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\Fastmag\\FaumeSalesforceBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "FAUME_SALESFORCE_CLIENT_SHORTCODE": "changeMe",
+                    "FAUME_SALESFORCE_CLIENT_ORGANIZATION_ID": "changeMe",
+                    "FAUME_SALESFORCE_CLIENT_SITE_ID": "changeMe",
+                    "FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN": "changeMe",
+                    "FAUME_SALESFORCE_DISCOUNT_CODE_END_AT": "changeMe",
+                    "FAUME_SALESFORCE_DISCOUNT_CODE_MULTIPLE_CODE_PER_BASKET": "changeMe",
+                    "FAUME_SALESFORCE_DISCOUNT_CODE_PREFIX": "changeMe",
+                    "FAUME_SALESFORCE_DISCOUNT_CODE_DESCRIPTION": "changeMe",
+                    "FAUME_SALESFORCE_CAMPAIGN_PREFIX": "changeMe",
+                    "FAUME_SALESFORCE_CAMPAIGN_DESCRIPTION": "changeMe",
+                    "FAUME_SALESFORCE_PROMOTION_PREFIX": "changeMe"
+                }
+            },
+            "files": {
+                "config/packages/faume_salesforce.yaml": {
+                    "contents": [
+                        "faume_salesforce:",
+                        "  client:",
+                        "    shortcode: changeMe",
+                        "    organization_id: changeMe",
+                        "    site_id: changeMe",
+                        "    auth_domain: changeMe",
+                        "  discount_code:",
+                        "    discount_code_end_at: changeMe",
+                        "    multiple_codes_per_basket: changeMe",
+                        "    coupon_prefix: changeMe",
+                        "    description: changeMe",
+                        "  campaign:",
+                        "    prefix: changeMe",
+                        "    description: changeMe",
+                        "  promotion:",
+                        "    prefix: changeMe"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "83c4f0920172c0cee7946be10c8f90e7bcbfea55"
+        }
+    }
+}
