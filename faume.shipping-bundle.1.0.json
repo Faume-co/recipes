@@ -1,0 +1,39 @@
+{
+    "manifests": {
+        "faume/shipping-bundle": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\ShippingBundle\\FaumeShippingBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "SHIPPY_PRO_API_KEY": "!changeMe!"
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of <info>SHIPPY_PRO_API_KEY</info> in the <info>.env</info> file.",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/shipping-bundle</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_shipping.yaml": {
+                    "contents": [
+                        "faume_shipping:",
+                        "    shippy_pro_api_key: '%env(SHIPPY_PRO_API_KEY)%'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "eb4b29438af111c509b8ab004cbce2a81ff2fda4"
+        }
+    }
+}
