@@ -1,0 +1,4 @@
+  * You are almost ready:
+    -> Change the value of <info>SHIPPY_PRO_API_KEY</info> in the <info>.env</info> file.
+
+  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/shipping-bundle</>

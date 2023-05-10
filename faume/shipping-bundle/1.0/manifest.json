@@ -1,0 +1,14 @@
+{
+    "bundles": {
+        "Faume\\ShippingBundle\\FaumeShippingBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "SHIPPY_PRO_API_KEY": "!changeMe!"
+    }
+}

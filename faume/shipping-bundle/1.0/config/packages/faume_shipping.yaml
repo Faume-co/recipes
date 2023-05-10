@@ -1,0 +1,2 @@
+faume_shipping:
+    shippy_pro_api_key: '%env(SHIPPY_PRO_API_KEY)%'
