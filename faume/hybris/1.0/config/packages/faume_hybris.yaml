@@ -1,0 +1,3 @@
+faume_hybris:
+  host: '%env(HYBRIS_HOST)%'
+  security_token: '%env(HYBRIS_TOKEN)%'

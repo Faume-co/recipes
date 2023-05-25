@@ -1,0 +1,2 @@
+  * You are almost ready:
+    -> Set values in your .env file for all FAUME_HYBRIS variables

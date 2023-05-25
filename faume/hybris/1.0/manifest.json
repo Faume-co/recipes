@@ -1,0 +1,15 @@
+{
+  "bundles" : {
+    "Faume\\Hybris\\FaumeHybrisBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd"
+  },
+  "env": {
+    "HYBRIS_HOST": "changeMe",
+    "HYBRIS_SECURITY_TOKEN" : "changeMe"
+  }
+}
