@@ -8,6 +8,9 @@
         "faume/file-transfer": [
             "1.0"
         ],
+        "faume/hybris": [
+            "1.0"
+        ],
         "faume/magento": [
             "1.0"
         ],

@@ -1,0 +1,38 @@
+{
+    "manifests": {
+        "faume/hybris": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\Hybris\\FaumeHybrisBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "HYBRIS_HOST": "changeMe",
+                    "HYBRIS_SECURITY_TOKEN": "changeMe"
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Set values in your .env file for all FAUME_HYBRIS variables"
+                ]
+            },
+            "files": {
+                "config/packages/faume_hybris.yaml": {
+                    "contents": [
+                        "faume_hybris:",
+                        "  host: '%env(HYBRIS_HOST)%'",
+                        "  security_token: '%env(HYBRIS_TOKEN)%'"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "5bce3d3af81c63b9b8259d6ec42977d0135ce75c"
+        }
+    }
+}
