@@ -10,6 +10,6 @@
   },
   "env": {
     "HYBRIS_HOST": "changeMe",
-    "HYBRIS_SECURITY_TOKEN" : "changeMe"
+    "HYBRIS_TOKEN" : "changeMe"
   }
 }
