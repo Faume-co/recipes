@@ -1,0 +1,4 @@
+services:
+    Faume\HybrisBundle\Hybris:
+        arguments:
+            $hybrisLogger: 'monolog.logger.hybris'

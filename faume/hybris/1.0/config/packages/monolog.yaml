@@ -1,0 +1,18 @@
+monolog:
+    channels:
+      - hybris
+    handlers:
+        hybris_handler:
+            type: rotating_file
+            channels: ["hybris"]
+            max_files: 30
+when@dev:
+    handlers:
+        hybris:
+            level: debug
+            path: "%kernel.logs_dir%/hybris.log"
+when@prod:
+    handlers:
+        hybris:
+            path: "%kernel.project_dir%/var/fsbucket/logs/hybris/hybris.log"
+            level: info

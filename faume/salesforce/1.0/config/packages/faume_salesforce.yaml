@@ -7,7 +7,7 @@ faume_salesforce:
   discount_code:
     discount_code_end_at: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_END_AT)%'
     multiple_codes_per_basket: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_MULTIPLE_CODE_PER_BASKET)%'
-    coupon_prefix: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_PREFIX)%'
+    prefix: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_PREFIX)%'
     description: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_DESCRIPTION)%'
   campaign:
     prefix: '%env(FAUME_SALESFORCE_CAMPAIGN_PREFIX)%'
