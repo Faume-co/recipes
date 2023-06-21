@@ -1,3 +1,8 @@
 faume_hybris:
-  host: '%env(HYBRIS_HOST)%'
-  security_token: '%env(HYBRIS_TOKEN)%'
+  voucher:
+    host: '%env(HYBRIS_VOUCHER_HOST)%'
+    security_token: '%env(HYBRIS_VOUCHER_SECURITY_TOKEN)%'
+    voucher_id_structure: '%env(HYBRIS_VOUCHER_ID_STRUCTURE)%'
+  customer:
+    host: '%env(HYBRIS_CUSTOMER_HOST)%'
+    security_token: '%env(HYBRIS_CUSTOMER_SECURITY_TOKEN)%'
