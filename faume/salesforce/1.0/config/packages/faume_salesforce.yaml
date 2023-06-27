@@ -1,16 +1,18 @@
 faume_salesforce:
   client:
-    shortcode: '%env(FAUME_SALESFORCE_CLIENT_SHORTCODE)%'
-    organization_id: '%env(FAUME_SALESFORCE_CLIENT_ORGANIZATION_ID)%'
-    site_id: '%env(FAUME_SALESFORCE_CLIENT_SITE_ID)%'
-    auth_domain: '%env(FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN)%'
-  discount_code:
-    discount_code_end_at: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_END_AT)%'
-    multiple_codes_per_basket: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_MULTIPLE_CODE_PER_BASKET)%'
-    prefix: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_PREFIX)%'
-    description: '%env(FAUME_SALESFORCE_DISCOUNT_CODE_DESCRIPTION)%'
+    shortcode: "%env(FAUME_SALESFORCE_CLIENT_SHORTCODE)%"
+    organization_id: "%env(FAUME_SALESFORCE_CLIENT_ORGANIZATION_ID)%"
+    site_id: "%env(FAUME_SALESFORCE_CLIENT_SITE_ID)%"
+    auth_domain: "%env(FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN)%"
+    auth_client_id: "%env(FAUME_SALESFORCE_CLIENT_AUTH_ID)%"
+    auth_client_secret: "%env(FAUME_SALESFORCE_CLIENT_AUTH_SECRET)%"
+    auth_instance_id: "%env(FAUME_SALESFORCE_CLIENT_AUTH_INSTANCE_ID)%"
+    auth_realm_id: "%env(FAUME_SALESFORCE_CLIENT_AUTH_REALM_ID)%"
   campaign:
-    prefix: '%env(FAUME_SALESFORCE_CAMPAIGN_PREFIX)%'
-    description: '%env(FAUME_SALESFORCE_CAMPAIGN_DESCRIPTION)%'
+    prefix: "%env(FAUME_SALESFORCE_CAMPAIGN_PREFIX)%"
+    description: "%env(FAUME_SALESFORCE_CAMPAIGN_DESCRIPTION)%"
+    customer_groups: "%env(FAUME_SALESFORCE_CAMPAIGN_CUSTOMER_GROUPS)%"
   promotion:
-    prefix: '%env(FAUME_SALESFORCE_PROMOTION_PREFIX)%'
+    prefix: "%env(FAUME_SALESFORCE_PROMOTION_PREFIX)%"
+  coupon:
+    prefix: "%env(FAUME_SALESFORCE_COUPON_PREFIX)%"
