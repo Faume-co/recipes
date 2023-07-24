@@ -1,0 +1,6 @@
+faume_intersolve:
+  host: '%env(FAUME_INTERSOLVE_HOST)%'
+  username: '%env(FAUME_INTERSOLVE_USERNAME)%'
+  password: '%env(FAUME_INTERSOLVE_PASSWORD)%'
+  device_id: '%env(FAUME_INTERSOLVE_DEVICE_ID)%'
+  coupon_ean: '%env(FAUME_INTERSOLVE_COUPON_EAN)%'

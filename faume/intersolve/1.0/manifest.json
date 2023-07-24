@@ -1,0 +1,18 @@
+{
+  "bundles": {
+    "Faume\\Intersolve\\FaumeIntersolveBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd"
+  },
+  "env": {
+    "FAUME_INTERSOLVE_HOST": "changeMe",
+    "FAUME_INTERSOLVE_USERNAME": "changeMe",
+    "FAUME_INTERSOLVE_PASSWORD":  "changeMe",
+    "FAUME_INTERSOLVE_DEVICE_ID":  "changeMe",
+    "FAUME_INTERSOLVE_COUPON_EAN":  "changeMe"
+  }
+}
