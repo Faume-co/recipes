@@ -1,0 +1,40 @@
+{
+    "manifests": {
+        "faume/intersolve": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\Intersolve\\FaumeIntersolveBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "FAUME_INTERSOLVE_HOST": "changeMe",
+                    "FAUME_INTERSOLVE_USERNAME": "changeMe",
+                    "FAUME_INTERSOLVE_PASSWORD": "changeMe",
+                    "FAUME_INTERSOLVE_DEVICE_ID": "changeMe",
+                    "FAUME_INTERSOLVE_COUPON_EAN": "changeMe"
+                }
+            },
+            "files": {
+                "config/packages/faume_intersolve.yaml": {
+                    "contents": [
+                        "faume_intersolve:",
+                        "  host: '%env(FAUME_INTERSOLVE_HOST)%'",
+                        "  username: '%env(FAUME_INTERSOLVE_USERNAME)%'",
+                        "  password: '%env(FAUME_INTERSOLVE_PASSWORD)%'",
+                        "  device_id: '%env(FAUME_INTERSOLVE_DEVICE_ID)%'",
+                        "  coupon_ean: '%env(FAUME_INTERSOLVE_COUPON_EAN)%'"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "92fb39662ac81ff9c143f5f08d5b93c32f6e8849"
+        }
+    }
+}
