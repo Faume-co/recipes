@@ -11,10 +11,10 @@
         "cache:clear": "symfony-cmd"
     },
     "env": {
-        "Y2_HOST": "!changeMe!",
-        "Y2_USERNAME": "!changeMe!",
-        "Y2_PASSWORD": "!changeMe!",
-        "Y2_ROOT_NODE": "soap:Envelope",
-        "Y2_DATABASE_ID": "!changeMe!"
+        "Y2_HOST": "",
+        "Y2_USERNAME": "",
+        "Y2_PASSWORD": "",
+        "Y2_ROOT_NODE": "",
+        "Y2_DATABASE_ID": ""
     }
 }
