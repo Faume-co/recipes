@@ -1,0 +1,43 @@
+{
+    "manifests": {
+        "faume/shopify": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\ShopifyBundle\\FaumeShopifyBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "SHOPIFY_API_URL": "",
+                    "SHOPIFY_ACCESS_TOKEN": ""
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of these values <info>.env</info> file :",
+                    "    - <info>SHOPIFY_API_URL</info>",
+                    "    - <info>SHOPIFY_ACCESS_TOKEN</info>",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-shopify</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_shopify.yaml": {
+                    "contents": [
+                        "faume_shopify:",
+                        "    shopify_url: '%env(SHOPIFY_API_URL)%'",
+                        "    shopify_access_token: '%env(SHOPIFY_ACCESS_TOKEN)%'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "08f1672c68da3ce01d53968bf8296a6a76656569"
+        }
+    }
+}
