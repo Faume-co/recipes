@@ -1,0 +1,4 @@
+faume_public_api:
+    host: '%env(FAUME_PUBLIC_API_HOST)%'
+    email: '%env(FAUME_PUBLIC_API_EMAIL)%'
+    password: '%env(FAUME_PUBLIC_API_PASSWORD)%'

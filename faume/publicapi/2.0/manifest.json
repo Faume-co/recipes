@@ -1,0 +1,16 @@
+{
+    "bundles": {
+        "Faume\\PublicAPIBundle\\FaumePublicAPIBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "FAUME_PUBLIC_API_HOST":  "api.faume.co",
+        "FAUME_PUBLIC_API_EMAIL":  "",
+        "FAUME_PUBLIC_API_PASSWORD": ""
+    }
+}
