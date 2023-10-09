@@ -1,0 +1,3 @@
+faume_shopify:
+    shopify_url: '%env(SHOPIFY_API_URL)%'
+    shopify_access_token: '%env(SHOPIFY_ACCESS_TOKEN)%'

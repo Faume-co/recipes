@@ -1,0 +1,15 @@
+{
+    "bundles": {
+        "Faume\\ShopifyBundle\\FaumeShopifyBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "SHOPIFY_API_URL":  "",
+        "SHOPIFY_ACCESS_TOKEN":  ""
+    }
+}
