@@ -1,0 +1,43 @@
+{
+    "manifests": {
+        "faume/prestashop": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\PrestashopBundle\\FaumePrestashopBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "PRESTASHOP_HOST": "",
+                    "PRESTASHOP_ACCESS_TOKEN": ""
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of these values <info>.env</info> file :",
+                    "    - <info>PRESTASHOP_HOST</info>",
+                    "    - <info>PRESTASHOP_ACCESS_TOKEN</info>",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/prestashop-bundle</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_prestashop.yaml": {
+                    "contents": [
+                        "faume_prestashop:",
+                        "    prestashop_host: '%env(PRESTASHOP_HOST)%'",
+                        "    prestashop_access_token: '%env(PRESTASHOP_ACCESS_TOKEN)%'",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "8ba2f0d157c67b6318b3ead6380e1f8221cb0a99"
+        }
+    }
+}

@@ -17,6 +17,9 @@
         "faume/magento": [
             "1.0"
         ],
+        "faume/prestashop": [
+            "1.0"
+        ],
         "faume/publicapi": [
             "1.0",
             "2.0"
