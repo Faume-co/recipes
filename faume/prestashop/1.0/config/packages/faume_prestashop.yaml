@@ -1,0 +1,3 @@
+faume_prestashop:
+    prestashop_host: '%env(PRESTASHOP_HOST)%'
+    prestashop_access_token: '%env(PRESTASHOP_ACCESS_TOKEN)%'

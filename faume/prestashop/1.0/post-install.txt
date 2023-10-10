@@ -1,0 +1,6 @@
+  * You are almost ready:
+    -> Change the value of these values <info>.env</info> file :
+    - <info>PRESTASHOP_HOST</info>
+    - <info>PRESTASHOP_ACCESS_TOKEN</info>
+
+  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/prestashop-bundle</>
