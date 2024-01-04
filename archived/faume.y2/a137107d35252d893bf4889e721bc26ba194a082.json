@@ -1,0 +1,51 @@
+{
+    "manifests": {
+        "faume/y2": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\Y2\\FaumeY2Bundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "Y2_HOST": "",
+                    "Y2_USERNAME": "",
+                    "Y2_PASSWORD": "",
+                    "Y2_LOG_ENABLED": false,
+                    "Y2_LOG_PATH": false
+                },
+                "post-install-output": [
+                    "  * You are almost ready:",
+                    "    -> Change the value of these values <info>.env</info> file :",
+                    "    - <info>Y2_HOST</info>",
+                    "    - <info>Y2_USERNAME</info>",
+                    "    - <info>Y2_PASSWORD</info>",
+                    "    - <info>Y2_LOG_ENABLED</info>",
+                    "    - <info>Y2_LOG_PATH</info>",
+                    "",
+                    "  * <fg=blue>Read</> the documentation at <comment>https://github.com/Faume-co/faume-y2</>"
+                ]
+            },
+            "files": {
+                "config/packages/faume_y2.yaml": {
+                    "contents": [
+                        "faume_y2:",
+                        "    host: '%env(Y2_HOST)%'",
+                        "    username: '%env(Y2_USERNAME)%'",
+                        "    password: '%env(Y2_PASSWORD)%'",
+                        "    log_enabled: '%env(Y2_LOG_ENABLED)%'",
+                        "    log_path: '%env(Y2_LOG_PATH)%'"
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "a137107d35252d893bf4889e721bc26ba194a082"
+        }
+    }
+}
