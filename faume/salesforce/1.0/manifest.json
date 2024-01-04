@@ -1,6 +1,8 @@
 {
   "bundles": {
-    "Faume\\Salesforce\\FaumeSalesforceBundle": ["all"]
+    "Faume\\Salesforce\\FaumeSalesforceBundle": [
+      "all"
+    ]
   },
   "copy-from-recipe": {
     "config/": "%CONFIG_DIR%/"
@@ -11,16 +13,14 @@
   "env": {
     "FAUME_SALESFORCE_CLIENT_SHORTCODE": "",
     "FAUME_SALESFORCE_CLIENT_ORGANIZATION_ID": "",
-    "FAUME_SALESFORCE_CLIENT_SITE_ID":  "",
-    "FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN":  "https://account.demandware.com/dwsso/oauth2/access_token",
-    "FAUME_SALESFORCE_CLIENT_AUTH_ID":  "",
+    "FAUME_SALESFORCE_CLIENT_SITE_ID": "",
+    "FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN": "https://account.demandware.com/dwsso/oauth2/access_token",
+    "FAUME_SALESFORCE_CLIENT_AUTH_ID": "",
     "FAUME_SALESFORCE_CLIENT_AUTH_SECRET": "",
-    "FAUME_SALESFORCE_CLIENT_AUTH_INSTANCE_ID":  "",
-    "FAUME_SALESFORCE_CLIENT_AUTH_REALM_ID":  "",
-    "FAUME_SALESFORCE_CAMPAIGN_PREFIX":  "faume_seconde_main_%de_%s",
-    "FAUME_SALESFORCE_CAMPAIGN_DESCRIPTION":  "Projet de seconde main avec Faume. Le client reçoit un bon de %d euros pour avoir déposé sur la plateforme Faume un ancien produit",
-    "FAUME_SALESFORCE_CAMPAIGN_CUSTOMER_GROUPS":  "",
-    "FAUME_SALESFORCE_PROMOTION_PREFIX":  "faume_seconde_main_%de",
-    "FAUME_SALESFORCE_COUPON_PREFIX":  "faume_seconde_main_%de"
+    "FAUME_SALESFORCE_CLIENT_AUTH_INSTANCE_ID": "",
+    "FAUME_SALESFORCE_CLIENT_AUTH_REALM_ID": "",
+    "FAUME_SALESFORCE_CAMPAIGN_PREFIX": "faume_seconde_main_%de_%s",
+    "FAUME_SALESFORCE_PROMOTION_PREFIX": "faume_seconde_main_%de",
+    "FAUME_SALESFORCE_COUPON_PREFIX": "faume_seconde_main_%de"
   }
 }

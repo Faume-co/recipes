@@ -10,8 +10,6 @@ faume_salesforce:
     auth_realm_id: "%env(FAUME_SALESFORCE_CLIENT_AUTH_REALM_ID)%"
   campaign:
     prefix: "%env(FAUME_SALESFORCE_CAMPAIGN_PREFIX)%"
-    description: "%env(FAUME_SALESFORCE_CAMPAIGN_DESCRIPTION)%"
-    customer_groups: "%env(FAUME_SALESFORCE_CAMPAIGN_CUSTOMER_GROUPS)%"
   promotion:
     prefix: "%env(FAUME_SALESFORCE_PROMOTION_PREFIX)%"
   coupon:

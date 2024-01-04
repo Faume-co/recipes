@@ -1,0 +1,6 @@
+faume_y2:
+    host: '%env(Y2_HOST)%'
+    username: '%env(Y2_USERNAME)%'
+    password: '%env(Y2_PASSWORD)%'
+    log_enabled: '%env(Y2_LOG_ENABLED)%'
+    log_path: '%env(Y2_LOG_PATH)%'
