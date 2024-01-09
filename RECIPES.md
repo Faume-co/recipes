@@ -15,6 +15,7 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [faume/shipping](https://packagist.org/packages/faume/shipping) | [1.0](faume/shipping/1.0) |
 | [faume/shipping-bundle](https://packagist.org/packages/faume/shipping-bundle) | [1.0](faume/shipping-bundle/1.0) |
 | [faume/shopify](https://packagist.org/packages/faume/shopify) | [2.0](faume/shopify/2.0) |
+| [faume/svs](https://packagist.org/packages/faume/svs) | [1.0](faume/svs/1.0) |
 | [faume/webhook](https://packagist.org/packages/faume/webhook) | [1.0](faume/webhook/1.0) |
 | [faume/wshop](https://packagist.org/packages/faume/wshop) | [1.0](faume/wshop/1.0) |
 | [faume/y2](https://packagist.org/packages/faume/y2) | [2.0](faume/y2/2.0) |
