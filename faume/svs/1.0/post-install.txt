@@ -1,0 +1,9 @@
+  * You are almost ready:
+    -> Change the value of these values <info>.env</info> file :
+    - <info>FAUME_SVS_MERCHANT_ID</info>
+    - <info>FAUME_SVS_VIRTUAL_INVENTORY_ID</info>
+    - <info>FAUME_SVS_STORE_NUMBER</info>
+    - <info>FAUME_SVS_LOGIN</info>
+    - <info>FAUME_SVS_PASSWORD</info>
+    - <info>FAUME_SVS_SECRET</info>
+    - <info>FAUME_SVS_AUTH_ID</info>

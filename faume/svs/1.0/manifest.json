@@ -1,0 +1,20 @@
+{
+    "bundles": {
+        "Faume\\Fastmag\\FaumeSvsBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "composer-scripts": {
+        "cache:clear": "symfony-cmd"
+    },
+    "env": {
+        "FAUME_SVS_MERCHANT_ID" : "",
+        "FAUME_SVS_VIRTUAL_INVENTORY_ID" : "",
+        "FAUME_SVS_STORE_NUMBER" :  "",
+        "FAUME_SVS_LOGIN" : "",
+        "FAUME_SVS_PASSWORD" :  "",
+        "FAUME_SVS_SECRET" : "",
+        "FAUME_SVS_AUTH_ID" :  ""
+    }
+}

@@ -1,0 +1,8 @@
+faume_svs:
+    merchantId: '%env(FAUME_SVS_MERCHANT_ID)%'
+    virtualInventoryId: '%env(FAUME_SVS_VIRTUAL_INVENTORY_ID)%'
+    storeNumber: '%env(FAUME_SVS_STORE_NUMBER)%'
+    login: '%env(FAUME_SVS_LOGIN)%'
+    password: '%env(FAUME_SVS_PASSWORD)%'
+    secret: '%env(FAUME_SVS_SECRET)%'
+    authId: '%env(FAUME_SVS_AUTH_ID)%'
