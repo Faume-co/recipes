@@ -7,3 +7,4 @@
     - <info>FAUME_SVS_PASSWORD</info>
     - <info>FAUME_SVS_SECRET</info>
     - <info>FAUME_SVS_AUTH_ID</info>
+    - <info>FAUME_SVS_ENV</info>

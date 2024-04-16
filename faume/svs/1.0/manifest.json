@@ -15,6 +15,7 @@
         "FAUME_SVS_LOGIN" : "",
         "FAUME_SVS_PASSWORD" :  "",
         "FAUME_SVS_SECRET" : "",
-        "FAUME_SVS_AUTH_ID" :  ""
+        "FAUME_SVS_AUTH_ID" :  "",
+        "FAUME_SVS_ENV":  ""
     }
 }

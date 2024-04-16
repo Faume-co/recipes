@@ -6,3 +6,4 @@ faume_svs:
     password: '%env(FAUME_SVS_PASSWORD)%'
     secret: '%env(FAUME_SVS_SECRET)%'
     authId: '%env(FAUME_SVS_AUTH_ID)%'
+    env: '%env(FAUME_SVS_ENV)%'
