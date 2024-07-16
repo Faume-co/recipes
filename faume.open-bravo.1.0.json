@@ -1,0 +1,36 @@
+{
+    "manifests": {
+        "faume/open-bravo": {
+            "manifest": {
+                "bundles": {
+                    "Faume\\OpenBravo\\FaumeOpenBravoBundle": [
+                        "all"
+                    ]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%/"
+                },
+                "composer-scripts": {
+                    "cache:clear": "symfony-cmd"
+                },
+                "env": {
+                    "FAUME_OPEN_BRAVO_HOST": "",
+                    "FAUME_OPEN_BRAVO_CLIENT_ID": "",
+                    "FAUME_OPEN_BRAVO_CLIENT_SECRET": ""
+                }
+            },
+            "files": {
+                "config/packages/faume_open_bravo.yaml": {
+                    "contents": [
+                        "faume_open_bravo:",
+                        "  host: \"%env(FAUME_OPEN_BRAVO_HOST)%\"",
+                        "  clientId: \"%env(FAUME_OPEN_BRAVO_CLIENT_ID)%\"",
+                        "  clientSecret: \"%env(FAUME_OPEN_BRAVO_CLIENT_SECRET)%\""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "6e729419f1081d881aacd614376237e3bce336d0"
+        }
+    }
+}

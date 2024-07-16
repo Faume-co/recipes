@@ -17,6 +17,9 @@
         "faume/magento": [
             "1.0"
         ],
+        "faume/open-bravo": [
+            "1.0"
+        ],
         "faume/prestashop": [
             "1.0"
         ],
