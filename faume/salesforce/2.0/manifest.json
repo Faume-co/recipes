@@ -1,0 +1,26 @@
+{
+  "bundles": {
+    "Faume\\Salesforce\\FaumeSalesforceBundle": [
+      "all"
+    ]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd"
+  },
+  "env": {
+    "FAUME_SALESFORCE_CLIENT_SHORTCODE": "",
+    "FAUME_SALESFORCE_CLIENT_ORGANIZATION_ID": "",
+    "FAUME_SALESFORCE_CLIENT_SITE_ID": "",
+    "FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN": "https://account.demandware.com/dwsso/oauth2/access_token",
+    "FAUME_SALESFORCE_CLIENT_AUTH_ID": "",
+    "FAUME_SALESFORCE_CLIENT_AUTH_SECRET": "",
+    "FAUME_SALESFORCE_CLIENT_AUTH_INSTANCE_IDS": "[\"stg\",\"dev\"]",
+    "FAUME_SALESFORCE_CLIENT_AUTH_REALM_ID": "",
+    "FAUME_SALESFORCE_CAMPAIGN_PREFIX": "",
+    "FAUME_SALESFORCE_PROMOTION_PREFIX": "",
+    "FAUME_SALESFORCE_COUPON_PREFIX": ""
+  }
+}

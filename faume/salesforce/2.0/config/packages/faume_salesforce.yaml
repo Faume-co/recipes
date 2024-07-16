@@ -1,0 +1,16 @@
+faume_salesforce:
+  client:
+    shortcode: "%env(FAUME_SALESFORCE_CLIENT_SHORTCODE)%"
+    organization_id: "%env(FAUME_SALESFORCE_CLIENT_ORGANIZATION_ID)%"
+    site_id: "%env(FAUME_SALESFORCE_CLIENT_SITE_ID)%"
+    auth_domain: "%env(FAUME_SALESFORCE_CLIENT_AUTH_DOMAIN)%"
+    auth_client_id: "%env(FAUME_SALESFORCE_CLIENT_AUTH_ID)%"
+    auth_client_secret: "%env(FAUME_SALESFORCE_CLIENT_AUTH_SECRET)%"
+    auth_instance_ids: "%env(json:FAUME_SALESFORCE_CLIENT_AUTH_INSTANCE_IDS)%"
+    auth_realm_id: "%env(FAUME_SALESFORCE_CLIENT_AUTH_REALM_ID)%"
+  campaign:
+    prefix: "%env(FAUME_SALESFORCE_CAMPAIGN_PREFIX)%"
+  promotion:
+    prefix: "%env(FAUME_SALESFORCE_PROMOTION_PREFIX)%"
+  coupon:
+    prefix: "%env(FAUME_SALESFORCE_COUPON_PREFIX)%"
