@@ -12,7 +12,7 @@ Additional recipes can be found on the [Contrib Recipes Repository](https://gith
 | [faume/open-bravo](https://packagist.org/packages/faume/open-bravo) | [1.0](faume/open-bravo/1.0) |
 | [faume/prestashop](https://packagist.org/packages/faume/prestashop) | [1.0](faume/prestashop/1.0) |
 | [faume/publicapi](https://packagist.org/packages/faume/publicapi) | [2.0](faume/publicapi/2.0) |
-| [faume/salesforce](https://packagist.org/packages/faume/salesforce) | [1.0](faume/salesforce/1.0) |
+| [faume/salesforce](https://packagist.org/packages/faume/salesforce) | [2.0](faume/salesforce/2.0) |
 | [faume/shipping](https://packagist.org/packages/faume/shipping) | [1.0](faume/shipping/1.0) |
 | [faume/shipping-bundle](https://packagist.org/packages/faume/shipping-bundle) | [1.0](faume/shipping-bundle/1.0) |
 | [faume/shopify](https://packagist.org/packages/faume/shopify) | [2.0](faume/shopify/2.0) |

@@ -28,7 +28,8 @@
             "2.0"
         ],
         "faume/salesforce": [
-            "1.0"
+            "1.0",
+            "2.0"
         ],
         "faume/shipping": [
             "1.0"
