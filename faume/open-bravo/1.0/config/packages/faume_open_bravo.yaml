@@ -1,0 +1,4 @@
+faume_open_bravo:
+  host: "%env(FAUME_OPEN_BRAVO_HOST)%"
+  clientId: "%env(FAUME_OPEN_BRAVO_CLIENT_ID)%"
+  clientSecret: "%env(FAUME_OPEN_BRAVO_CLIENT_SECRET)%"

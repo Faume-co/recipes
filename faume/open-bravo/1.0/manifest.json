@@ -1,0 +1,18 @@
+{
+  "bundles": {
+    "Faume\\OpenBravo\\FaumeOpenBravoBundle": [
+      "all"
+    ]
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  },
+  "composer-scripts": {
+    "cache:clear": "symfony-cmd"
+  },
+  "env": {
+    "FAUME_OPEN_BRAVO_HOST": "",
+    "FAUME_OPEN_BRAVO_CLIENT_ID": "",
+    "FAUME_OPEN_BRAVO_CLIENT_SECRET": ""
+  }
+}
