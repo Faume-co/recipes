@@ -28,23 +28,9 @@
                         "  clientSecret: \"%env(FAUME_OPEN_BRAVO_CLIENT_SECRET)%\""
                     ],
                     "executable": false
-                },
-                "config/packages/monolog.yaml": {
-                    "contents": [
-                        "monolog:",
-                        "  channels:",
-                        "    - open_bravo",
-                        "  handlers:",
-                        "    open_bravo:",
-                        "      level: debug",
-                        "      path: \"%kernel.logs_dir%/open_bravo.log\"",
-                        "      type: rotating_file",
-                        "      channels: [ \"open_bravo\" ]"
-                    ],
-                    "executable": false
                 }
             },
-            "ref": "b5b4d0cdf0fe081019dec57cfd814e9df33b9e0e"
+            "ref": "6e729419f1081d881aacd614376237e3bce336d0"
         }
     }
 }
