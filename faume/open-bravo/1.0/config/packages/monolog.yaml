@@ -1,9 +1,0 @@
-monolog:
-  channels:
-    - open_bravo
-  handlers:
-    open_bravo:
-      level: debug
-      path: "%kernel.logs_dir%/open_bravo.log"
-      type: rotating_file
-      channels: [ "open_bravo" ]
